@@ -43,7 +43,13 @@ module.exports = function (opts) {
     'application/vnd.api+json',
     'application/csp-report',
   ];
-
+  // PGP Types
+  var pgpTypes = [
+    'application/pgp-encrypted',
+    'application/pgp-signature',
+    'application/pgp-keys'
+  ];
+  
   // default form types
   var formTypes = [
     'application/x-www-form-urlencoded',
@@ -73,6 +79,8 @@ module.exports = function (opts) {
       ctx.request.body = yield parse.json(ctx, jsonOpts);
     } else if (ctx.request.is(formTypes)) {
       ctx.request.body = yield parse.form(ctx, formOpts);
+    } else if (ctx.request.is(pgpTypes)) {
+      ctx.request.body = yield parse.text(ctx);
     } else {
       ctx.request.body = {};
     }
