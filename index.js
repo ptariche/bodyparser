@@ -6,6 +6,7 @@
  * Authors:
  *   dead_horse <dead_horse@qq.com> (http://deadhorse.me)
  *   fengmk2 <m@fengmk2.com> (http://fengmk2.com)
+ *   ptariche <ptariche@gmail.com>
  */
 
 'use strict';
@@ -49,7 +50,7 @@ module.exports = function (opts) {
     'application/pgp-signature',
     'application/pgp-keys'
   ];
-  
+
   // default form types
   var formTypes = [
     'application/x-www-form-urlencoded',
@@ -57,6 +58,7 @@ module.exports = function (opts) {
 
   extendType(jsonTypes, extendTypes.json);
   extendType(formTypes, extendTypes.form);
+  extendType(formTypes, extendTypes.pgp);
 
   return function *bodyParser(next) {
     if (this.request.body !== undefined) return yield* next;

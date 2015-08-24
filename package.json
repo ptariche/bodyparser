@@ -1,6 +1,6 @@
 {
-  "name": "koa-bodyparser",
-  "version": "2.0.1",
+  "name": "koa-bodyparser-secure",
+  "version": "3.0.0",
   "description": "a body parser for koa",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/koajs/bodyparser.git"
+    "url": "git://github.com/ptariche/bodyparser-secure.git"
   },
   "files": [
     "index.js"
@@ -20,12 +20,12 @@
     "koa",
     "body"
   ],
-  "author": "dead_horse <dead_horse@qq.com> (http://deadhorse.me)",
+  "author": "dead_horse <dead_horse@qq.com> (http://deadhorse.me), Peter A. Tariche <ptariche@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/koajs/body-parser/issues"
+    "url": "https://github.comptariche/bodyparser-secure/issues"
   },
-  "homepage": "https://github.com/koajs/body-parser",
+  "homepage": "https://github.com/ptariche/bodyparser-secure",
   "devDependencies": {
     "autod": "1",
     "istanbul-harmony": "~0.3.12",
