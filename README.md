@@ -11,11 +11,12 @@ koa-bodyparser
 [npm-image]: https://img.shields.io/npm/v/koa-bodyparser-secure.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/koa-bodyparser-secure
 
+
 a body parser for koa, base on [co-body](https://github.com/tj/co-body).
 
 ## Install
 
-[![NPM](https://nodei.co/npm/koa-bodyparser.png?downloads=true)](https://nodei.co/npm/koa-bodyparser/)
+[![NPM](https://nodei.co/npm/koa-bodyparser-secure.png?downloads=true)](https://nodei.co/npm/koa-bodyparser-secure/)
 
 ## Usage
 
