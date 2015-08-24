@@ -2,11 +2,6 @@ koa-bodyparser
 ===============
 
 [![NPM version][npm-image]][npm-url]
-[![build status][travis-image]][travis-url]
-[![Coveralls][coveralls-image]][coveralls-url]
-[![David deps][david-image]][david-url]
-[![node version][node-image]][node-url]
-[![Gittip][gittip-image]][gittip-url]
 
 [npm-image]: https://img.shields.io/npm/v/koa-bodyparser-secure.svg?style=flat-square
 [npm-url]: https://npmjs.org/package/koa-bodyparser-secure
